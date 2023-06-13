@@ -1,5 +1,6 @@
 #!/bin/bash
 chmod u+x $(ls /alx*s/0x03* -Art | tail -1)
+tasknum=$(ls | wc -l)
 git add .
-git commit -m "Update :sparkles:"
+git commit -m "Added challenge $tasknum :tada:"
 git push
