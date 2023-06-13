@@ -1,0 +1,5 @@
+#!/bin/bash
+chmod u+x /alx*s/0x02* -Art | tail -1
+git add .
+git commit -m "Update :sparkles:"
+git push
