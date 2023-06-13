@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod u+x $(/alx*s/0x03* -Art | tail -1)
+chmod u+x $(ls /alx*s/0x03* -Art | tail -1)
 git add .
 git commit -m "Update :sparkles:"
 git push
