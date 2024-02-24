@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Lists all processes with the "bash" word
+# shellcheck disable=SC2009
+
+ps -faux | grep "bash"
