@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# A Bash script that prints the files in the current directory, line by line
+# A Bash script that prints the name of the files in the current directory, line by line, including only the parts after the dash
 
 for item in *;
    do
-     echo "$item"
+     echo "$item" | cut -d '_' -f2
    done
