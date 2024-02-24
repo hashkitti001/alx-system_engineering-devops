@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A Bash script that prints the files in a directory, line by line
+
+for item in $(ls);
+   do
+     echo $item
+   done
