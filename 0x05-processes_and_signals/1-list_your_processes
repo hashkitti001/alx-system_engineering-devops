@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Prints all processes running on the system, in user readable format
+
+ps -faux
