@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
+# A Bash script that shows sockets that are :
+# listening for connections along with their PID and name of the program to which each socket belongs
 
-netstat -p 
+netstat -l --program
