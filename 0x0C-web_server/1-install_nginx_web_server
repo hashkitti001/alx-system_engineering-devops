@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script to install Nginx on Ubuntu 18.04
+sudo su
+apt-get update 
+apt-get install -y nginx
+ufw allow 'Nginx HTTP'
+echo "Hello world!" > /var/www/html/index.nginx-debian.html
+service nginx start
