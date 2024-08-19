@@ -1,13 +1,12 @@
-It looks like you've started drafting a postmortem for a PostgreSQL setup issue, but it seems there are some sections that need editing to reflect the PostgreSQL context instead of Apache. Here’s a revised version tailored to your scenario:
-
----
-
 # **Postmortem: PostgreSQL Setup Issue on Docker**
 
 ### **Incident Date:** 23rd of July, 2024  
 ### **Authors:** Iwegbu Jedidiah
 
+---It looks like you've started drafting a postmortem for a PostgreSQL setup issue, but it seems there are some sections that need editing to reflect the PostgreSQL context instead of Apache. Here’s a revised version tailored to your scenario:
+
 ---
+
 
 ## **Summary**
 
@@ -75,6 +74,3 @@ The issue was caused by a misconfiguration in the `docker-compose.yml` file, whe
 
 This incident highlighted the importance of careful configuration management and testing before deploying changes to a production environment. By addressing the lessons learned and implementing the action items, we aim to prevent similar issues in the future and improve our overall Docker management processes.
 
----
-
-This README file provides a structured format for documenting the postmortem, making it easy to reference and share with your team or stakeholders.
